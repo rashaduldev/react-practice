@@ -32,6 +32,9 @@ function handleClicked(){
 const clickedHandle=()=>{
   alert('Second Button Also Clicked');
 }
+const clickedHandleFour=(num)=>{
+  alert(num+8);
+}
 
 
   return (
@@ -39,8 +42,10 @@ const clickedHandle=()=>{
     <>
     <h1>Vite + React</h1>
 
-    <button onClick={handleClicked}>Click me</button>
-    <button onClick={clickedHandle}>Click me second</button>
+    <button onClick={handleClicked}>Click me</button> <br />
+    <button onClick={clickedHandle}>Click me second</button> <br />
+    <button onClick={()=>{alert('clicked')}}>Third Click</button>
+    <button onClick={()=>{clickedHandleFour(3)}}>Fourth Click</button>
     <BookStore books={books}></BookStore>
     {
       practiceTeam.map(teammeet=><Team person={teammeet}></Team>)
