@@ -4,8 +4,8 @@ export default function Counter() {
     const [count ,setCount]=useState(0);
 
     const clickHandle=()=>{
-        const newCount =count+1;
-        setCount (newCount);
+        // const newCount =count+1;
+        setCount (count+1);
     }
     const reduceHandle=()=>{
         // const newCount =count-1;

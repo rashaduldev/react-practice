@@ -42,13 +42,13 @@ const clickedHandleFour=(num)=>{
    
     <>
     <h1>Vite + React</h1>
-    <Counter name='ok'></Counter>
+    <Counter></Counter>
 
     
     {/* Even Handeler start */}
     <button onClick={handleClicked}>Click me</button> <br />
-    <button onClick={clickedHandle}>Click me second</button> <br />
-    <button onClick={()=>{alert('clicked')}}>Third Click</button>
+    <button onClick={clickedHandle}>Click me second</button>
+    <button onClick={()=>{alert('clicked')}}>Third Click</button> <br />
     <button onClick={()=>{clickedHandleFour(3)}}>Fourth Click</button>
    {/* Even Handeler End */}
 
