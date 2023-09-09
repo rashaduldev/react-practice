@@ -5,6 +5,7 @@ import './App.css'
 import Person from './Person'
 import Team from './Team'
 import BookStore from './BookStore'
+import Counter from './Counter'
 
 function App() {
 const persons=['Sakib','jasim','Rubel','Shoriful'];
@@ -41,6 +42,7 @@ const clickedHandleFour=(num)=>{
    
     <>
     <h1>Vite + React</h1>
+    <Counter name='ok'></Counter>
 
     
     {/* Even Handeler start */}
