@@ -1,8 +1,14 @@
-export default function Book(book) {
+import './Book.css';
+
+export default function Book({book}) {
+    console.log(book);
+    const {id,name,price}=book;
     return (
-        <div>
-            <h3>Book Name:</h3>
-            <h4>Book Prices:</h4>
+        <div className='book'>
+            <h2>Id:{id}</h2>
+            <h3>Book Name:{name}</h3>
+            <h4>Book Prices:{price}</h4>
+            <hr />
         </div>
     )
 }

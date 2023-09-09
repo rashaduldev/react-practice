@@ -1,0 +1,11 @@
+.book{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 1rem;
+   
+}
+.book2{
+    /* display: grid;
+    grid-template-columns: repeat(4,0); */
+}
