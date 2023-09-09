@@ -25,10 +25,22 @@ const books=[
   {id:5,name:'Python',price:230},
   {id:6,name:'Laravel',price:230}
 ];
+function handleClicked(){
+  alert('clicked');
+}
+// second time click event
+const clickedHandle=()=>{
+  alert('Second Button Also Clicked');
+}
+
 
   return (
+   
     <>
     <h1>Vite + React</h1>
+
+    <button onClick={handleClicked}>Click me</button>
+    <button onClick={clickedHandle}>Click me second</button>
     <BookStore books={books}></BookStore>
     {
       practiceTeam.map(teammeet=><Team person={teammeet}></Team>)
