@@ -3,18 +3,32 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Person from './Person'
+import Team from './Team'
 
 function App() {
-const persons=['Sakib','jasim','Rubel','Shoriful']
+const persons=['Sakib','jasim','Rubel','Shoriful'];
+const practiceTeam=[
+  {id:1,name:'Rabby',age:23},
+  {id:2,name:'Salman',age:21},
+  {id:3,name:'Rakib',age:24},
+  {id:4,name:'Sakib',age:23},
+  {id:5,name:'Rahul',age:28},
+  {id:6,name:'Rubel',age:20}
+]
 
   return (
     <>
-
-    <Person name={"Raj"}></Person>
+    <h1>Vite + React</h1>
     {
-      persons.map(actor=><Person></Person>)
+      practiceTeam.map(teammeet=><Team person={teammeet}></Team>)
     }
-      <h1>Vite + React</h1>
+
+
+    {/* <Person name={persons[0]}></Person> */}
+    {
+      persons.map(person =><Person name={person}></Person>)
+    }
+      
   
     </>
   )
