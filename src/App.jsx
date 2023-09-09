@@ -10,9 +10,9 @@ const persons=['Sakib','jasim','Rubel','Shoriful']
   return (
     <>
 
-    <Actor name={"Raj"}></Actor>
+    <Person name={"Raj"}></Person>
     {
-      persons.map(actor=><Actor></Actor>)
+      persons.map(actor=><Person></Person>)
     }
       <h1>Vite + React</h1>
   
