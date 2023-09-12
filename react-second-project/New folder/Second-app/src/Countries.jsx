@@ -44,7 +44,7 @@ const Countries = () => {
             <div>
                 <h3>Visited flag: {visitedFlag.length}</h3>
 
-                <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)' gap:'10px',justifyContent:'center'}}>
+                <div style={{display:'grid',gridTemplateColumns:'repeat(6,1fr)', gap:'10px',justifyContent:'center'}}>
                 {
                     visitedFlag.map(flag => <img style={{width:'200px' ,height:'300px'}} src={flag}></img>)
                 }
