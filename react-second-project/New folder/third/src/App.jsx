@@ -1,4 +1,5 @@
 import './App.css'
+import Countries from './Countries'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <h1>World All Counties</h1>
-      
+      <Countries></Countries>
     </>
   )
 }
