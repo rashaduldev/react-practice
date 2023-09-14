@@ -2,7 +2,7 @@
     {
       "id": 1,
       "cover": "https://i.ibb.co/5MVQsj3/1.jpg",
-      "title": "Fake Book 1",
+      "title": "How to get your first job as a self-taught programmer",
       "author": "Fake Author 1",
       "author_img": "https://i.ibb.co/znfg7rH/boy1.png",
       "posted_date": "2023-09-14",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "cover": "https://i.ibb.co/g65ts90/2.png",
-      "title": "Fake Book 2",
+      "title": "How to get your first job as a self-taught programmer",
       "author": "Fake Author 2",
       "author_img": "https://i.ibb.co/7gpScn8/boy2.jpg",
       "posted_date": "2023-09-13",
@@ -22,7 +22,7 @@
     {
       "id": 3,
       "cover": "https://i.ibb.co/NrNhbYR/3.png",
-      "title": "Fake Book 3",
+      "title": "How to get your first job as a self-taught programmer",
       "author": "Fake Author 3",
       "author_img": "https://i.ibb.co/LZ7sYfG/girl1.jpg",
       "posted_date": "2023-09-12",
@@ -32,7 +32,7 @@
     {
       "id": 4,
       "cover": "https://i.ibb.co/g65ts90/2.png",
-      "title": "Fake Book 4",
+      "title": "How to get your first job as a self-taught programmer",
       "author": "Fake Author 4",
       "author_img": "https://i.ibb.co/C2dpw07/girl2.jpg",
       "posted_date": "2023-09-11",
@@ -42,7 +42,7 @@
     {
       "id": 5,
       "cover": "https://i.ibb.co/svCJff6/4.jpg",
-      "title": "Fake Book 5",
+      "title": "How to get your first job as a self-taught programmer",
       "author": "Fake Author 5",
       "author_img": "https://i.ibb.co/7gpScn8/boy2.jpg",
       "posted_date": "2023-09-10",
