@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://example.com/cover1.jpg",
+      "cover": "https://i.ibb.co/5MVQsj3/1.jpg",
       "title": "Fake Book 1",
       "author": "Fake Author 1",
       "author_img": "https://example.com/img1.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://example.com/cover2.jpg",
+      "cover": "https://i.ibb.co/g65ts90/2.png",
       "title": "Fake Book 2",
       "author": "Fake Author 2",
       "author_img": "https://example.com/img2.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://example.com/cover3.jpg",
+      "cover": "https://i.ibb.co/NrNhbYR/3.png",
       "title": "Fake Book 3",
       "author": "Fake Author 3",
       "author_img": "https://example.com/img3.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "cover": "https://example.com/cover4.jpg",
+      "cover": "https://i.ibb.co/g65ts90/2.png",
       "title": "Fake Book 4",
       "author": "Fake Author 4",
       "author_img": "https://example.com/img4.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "cover": "https://example.com/cover5.jpg",
+      "cover": "https://i.ibb.co/svCJff6/4.jpg",
       "title": "Fake Book 5",
       "author": "Fake Author 5",
       "author_img": "https://example.com/img5.jpg",

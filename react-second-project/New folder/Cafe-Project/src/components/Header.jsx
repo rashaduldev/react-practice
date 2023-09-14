@@ -1,5 +1,4 @@
 import profile from '../../dist/assets/images/profile.png'
-import Blogs from "./Blogs/Blogs";
 
 
 const Header = () => {
