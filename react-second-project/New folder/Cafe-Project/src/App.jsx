@@ -9,6 +9,14 @@ function App() {
 
 const [bookmarks,setBookmarks]=useState([]);
 
+const [spandTime,setTime]=useState(0);
+const spandTimeHandle=(time)=>{
+  console.log(time);
+  const newTime=spandTime+time;
+  setTime(newTime)
+  // console.log(setTime);
+}
+
   const bookMarkHandle=blog=>{
     console.log(blog);
     const newBookMark=[...bookmarks,blog];
@@ -20,8 +28,12 @@ const [bookmarks,setBookmarks]=useState([]);
    
     <Header></Header>
      <div className='md:flex  max-w-7xl mx-auto'>
-        <Blogs bookMarkHandle={bookMarkHandle}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs bookMarkHandle={bookMarkHandle}
+        spandTimeHandle={spandTimeHandle}
+        ></Blogs>
+        <Bookmarks bookmarks={bookmarks}
+        spandTime={spandTime}
+        ></Bookmarks>
      </div>
     
     </>

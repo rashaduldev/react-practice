@@ -1,9 +1,9 @@
 
 import { FaBeer } from 'react-icons/fa';
 import PropTypes from 'prop-types';
-const Blog = ({blog ,bookMarkHandle}) => {
+const Blog = ({blog ,bookMarkHandle,spandTimeHandle}) => {
     const {title,cover,author,author_img,posted_date,reading_time,hashtags,id}=blog;
-    console.log(blog);
+    // console.log(blog);
     return (
         <div className='my-10'>
             <img className='w-full rounded' src={cover} alt={`cover picture of the ${title}`} />
@@ -28,6 +28,11 @@ const Blog = ({blog ,bookMarkHandle}) => {
                     }
                 </p>
             </div>
+            <div className='my-5 font-bold '>
+            <button
+            onClick={()=>spandTimeHandle(reading_time)}
+            className="text-3xl underline text-purple-700">Mark as read</button>
+          </div>
             <hr />
         </div>
     );
