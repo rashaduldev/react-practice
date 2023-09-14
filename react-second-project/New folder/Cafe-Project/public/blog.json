@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://example.com/cover1.jpg",
+      "title": "Fake Book 1",
+      "author": "Fake Author 1",
+      "author_img": "https://example.com/img1.jpg",
+      "posted_date": "2023-09-14",
+      "reading_time": 30,
+      "hashtags": ["#fiction", "#mystery"]
+    },
+    {
+      "id": 2,
+      "cover": "https://example.com/cover2.jpg",
+      "title": "Fake Book 2",
+      "author": "Fake Author 2",
+      "author_img": "https://example.com/img2.jpg",
+      "posted_date": "2023-09-13",
+      "reading_time": 45,
+      "hashtags": ["#romance", "#adventure"]
+    },
+    {
+      "id": 3,
+      "cover": "https://example.com/cover3.jpg",
+      "title": "Fake Book 3",
+      "author": "Fake Author 3",
+      "author_img": "https://example.com/img3.jpg",
+      "posted_date": "2023-09-12",
+      "reading_time": 20,
+      "hashtags": ["#sciencefiction", "#fantasy"]
+    },
+    {
+      "id": 4,
+      "cover": "https://example.com/cover4.jpg",
+      "title": "Fake Book 4",
+      "author": "Fake Author 4",
+      "author_img": "https://example.com/img4.jpg",
+      "posted_date": "2023-09-11",
+      "reading_time": 60,
+      "hashtags": ["#thriller", "#suspense"]
+    },
+    {
+      "id": 5,
+      "cover": "https://example.com/cover5.jpg",
+      "title": "Fake Book 5",
+      "author": "Fake Author 5",
+      "author_img": "https://example.com/img5.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time": 15,
+      "hashtags": ["#comedy", "#humor"]
+    }
+  ]
+  
