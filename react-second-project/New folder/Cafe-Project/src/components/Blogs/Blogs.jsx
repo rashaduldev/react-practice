@@ -11,7 +11,7 @@ const Blogs = () => {
     return (
         <main className="w-2/3">
             <h2 className="text-4xl">
-                Blogs
+                Blogs:{blogs.length}
             </h2>
         </main>
     );
