@@ -14,13 +14,15 @@ const Blogs = () => {
             <h2 className="text-4xl">
                 Blogs:{blogs.length}
             </h2>
-            {
+          <div className="my-10">
+          {
                 blogs.map(blog=><Blog 
                     key={blog.id} 
                     blog={blog}>
                         
                     </Blog>)
             }
+          </div>
         </main>
     );
 };
