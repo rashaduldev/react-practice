@@ -5,12 +5,13 @@ const Blog = ({blog}) => {
     console.log(blog);
     return (
         <div>
-            <img src={cover} alt={`cover picture of the ${title}`} />
+            <img className='w-full' src={cover} alt={`cover picture of the ${title}`} />
             <div className='flex justify-between'>
+                <div className='flex gap-3 items-center'>
+                <img className='w-14' src={author_img} alt="" />
                 <div>
-                <img src={author_img} alt="" />
-                <div>
-
+                    <h3 className='text-2xl'>{author}</h3> 
+                      <h2>{posted_date} <span className='font-bold'>(4 days ago)</span></h2>  
                 </div>
                 </div>
                 <div>

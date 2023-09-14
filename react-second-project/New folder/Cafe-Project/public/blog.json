@@ -4,7 +4,7 @@
       "cover": "https://i.ibb.co/5MVQsj3/1.jpg",
       "title": "Fake Book 1",
       "author": "Fake Author 1",
-      "author_img": "https://example.com/img1.jpg",
+      "author_img": "https://i.ibb.co/znfg7rH/boy1.png",
       "posted_date": "2023-09-14",
       "reading_time": 30,
       "hashtags": ["#fiction", "#mystery"]
@@ -14,7 +14,7 @@
       "cover": "https://i.ibb.co/g65ts90/2.png",
       "title": "Fake Book 2",
       "author": "Fake Author 2",
-      "author_img": "https://example.com/img2.jpg",
+      "author_img": "https://i.ibb.co/7gpScn8/boy2.jpg",
       "posted_date": "2023-09-13",
       "reading_time": 45,
       "hashtags": ["#romance", "#adventure"]
@@ -24,7 +24,7 @@
       "cover": "https://i.ibb.co/NrNhbYR/3.png",
       "title": "Fake Book 3",
       "author": "Fake Author 3",
-      "author_img": "https://example.com/img3.jpg",
+      "author_img": "https://i.ibb.co/LZ7sYfG/girl1.jpg",
       "posted_date": "2023-09-12",
       "reading_time": 20,
       "hashtags": ["#sciencefiction", "#fantasy"]
@@ -34,7 +34,7 @@
       "cover": "https://i.ibb.co/g65ts90/2.png",
       "title": "Fake Book 4",
       "author": "Fake Author 4",
-      "author_img": "https://example.com/img4.jpg",
+      "author_img": "https://i.ibb.co/C2dpw07/girl2.jpg",
       "posted_date": "2023-09-11",
       "reading_time": 60,
       "hashtags": ["#thriller", "#suspense"]
@@ -44,7 +44,7 @@
       "cover": "https://i.ibb.co/svCJff6/4.jpg",
       "title": "Fake Book 5",
       "author": "Fake Author 5",
-      "author_img": "https://example.com/img5.jpg",
+      "author_img": "https://i.ibb.co/7gpScn8/boy2.jpg",
       "posted_date": "2023-09-10",
       "reading_time": 15,
       "hashtags": ["#comedy", "#humor"]
