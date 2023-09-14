@@ -17,7 +17,7 @@ const Blog = ({blog ,bookMarkHandle}) => {
                 </div>
                 <div className='my-5 flex items-center gap-4'>
                     <span>{reading_time} min read</span>
-                    <button onClick={bookMarkHandle} className='text-2xl'><FaBeer /></button>
+                    <button onClick={()=>{bookMarkHandle(blog)}} className='text-2xl'><FaBeer /></button>
                 </div>
             </div>
             <h2 className='text-4xl my-5'>{title}</h2>

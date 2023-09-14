@@ -2,7 +2,10 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
 
+
+
 const Blogs = ({bookMarkHandle}) => {
+    // console.log(bookmarks);
     const [blogs,setBlogs]=useState([]);
     useEffect(()=>{
         fetch('blog.json')

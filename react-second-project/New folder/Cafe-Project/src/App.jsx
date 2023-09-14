@@ -5,11 +5,14 @@ import Bookmarks from './components/Bookmarks/Bookmarks'
 import { useState } from 'react'
 // https://kit.fontawesome.com/be2168ea2b.js
 
+function App() {
 
 const [bookmarks,setBookmarks]=useState([]);
-function App() {
-  const bookMarkHandle=()=>{
-    console.log(bookmarks);
+
+  const bookMarkHandle=blog=>{
+    console.log(blog);
+    const newBookMark=[...bookmarks,blog];
+    setBookmarks(newBookMark);
   }
 
   return (
@@ -18,7 +21,7 @@ function App() {
     <Header></Header>
      <div className='md:flex  max-w-7xl mx-auto'>
         <Blogs bookMarkHandle={bookMarkHandle}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
      </div>
     
     </>
