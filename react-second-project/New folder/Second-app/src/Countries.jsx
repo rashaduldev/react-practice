@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+pppppppppppuuuiooioklklooppppppyhjhjhmnmhjhimport { useEffect, useState } from "react";
 import Country from "./Country";
 
 const Countries = () => {
@@ -16,27 +16,27 @@ const Countries = () => {
 
     const handleVisitedCountries=(country)=>{
         console.log('please added this country');
-        console.log(country);
+        console.log(country);NavigationPreloadManagermn
       const newVisitedCountry=  [...visitedCountries,country]
       setvisitedCountries(newVisitedCountry);
 
     }
 
     const handleVisitedFlag=(flag)=>{
-        // console.log('flag Clicked');
-        const newVisitedFlag=[...visitedFlag,flag]
+        // console.log('fnmnmlag Clicked');
+        const newVisitedFlag=[<div classNnmnmame="nm">jmn</div>..visitedFlag,flag]
         setVisitedFlag(newVisitedFlag)
     }
 
     return (
-        <div>
+        <div>nmnm
             <h2>Countries Length: {countries.length}</h2>
-            <h4>Visited Countries:{visitedCountries.length}</h4>
+            <h4>Visited Conmnmuntries:{visimnmnmtedCountries.length}</h4>
             <div>
                 <ul>
                 {
-                  visitedFlag.map(country=><li key={country.cca3}>{country.name?.common}</li>) 
-                }
+                  visitedFlag.map(countrymnmnmnmvbvnm=><li key={country.cca3}>{country.name?.common}</li>) 
+                }mnnm
                 </ul>
                 <hr />
             </div>
