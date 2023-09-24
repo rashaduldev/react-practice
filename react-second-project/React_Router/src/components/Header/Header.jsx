@@ -6,12 +6,13 @@ const Header = () => {
         <div>
             <h2>Navber: </h2>
 
-            <nav>
+            <nav style={{gap:'10px'}}>
                 <a href="/">Home</a>
                 <a href="/about">About</a>
                 <a href="/contact">Contact</a>
-                <Outlet></Outlet>
+                
             </nav>
+            <Outlet></Outlet>
             
         </div>
     );
